@@ -90,4 +90,6 @@ footer p {
 footer p a:hover {
   text-decoration: underline;
 }    
-      
+.social img {
+  width: 225px;
+}      
