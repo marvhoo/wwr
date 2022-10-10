@@ -17,10 +17,10 @@ Fonts are separated by a & */
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #4D4730;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #4D4730; /* paragraph text on a white background */ 
+  --headline-color-on-color: #4D4730; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #42F2F7; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored b */ 
-  --paragraph-background-color: #4D4730  ;
+  --paragraph-background-color: #498C8A  ;
   --nav-link-color: #396E94;
   --nav-background-color: #42F2F7;
   --nav-hover-link-color: white;
@@ -55,6 +55,7 @@ hr {
   background: var(--accent1-color);
 }
 header {
+  max-width:  100%;
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);

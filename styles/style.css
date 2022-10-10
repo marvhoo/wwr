@@ -1,0 +1,93 @@
+#content {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#content, nav a, #hero-msg h1, #hero-msg h4,.button-box, main section {
+  text-align: center;
+}
+
+#background {
+  height: 725px;
+  background-color: #4D4730;
+}
+
+body {
+  background-color: #498C8A;
+}
+
+header {
+  background-color: #46ACC2;
+  
+}
+
+nav a:hover, .book:hover,.join:hover, .home-title:hover,footer:hover, footer a:hover {
+  color:   #d9c2a3;
+  background-color: black;
+}
+
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 30px;
+  color: #d9c2a3;
+}
+
+nav {
+  background-color: var(#4D4730);
+  line-height: 3em;
+  text-align: center;
+  font-size: 3em;
+  list-style-type: none;
+
+}
+
+nav a:link, nav a:visited {
+  color: var(#42F2F7 );
+}
+
+footer, #hero-msg {
+  font-size: 3em;
+  line-height: 1em;
+}
+
+footer {
+  background-color: #46ACC2;
+}
+.text, .join {
+  font-size: 2.3em;
+}
+
+.book, #msg.text, .msg h2, .msg p, foote, footer a {
+  color: #d9c2a3;
+}
+
+#hero-img {
+  width: 100%;
+}
+.logo {
+  width: 45%;
+}
+
+.icon {
+  width: 8%;
+}
+.card-img {
+  width: 50%;
+}
+
+nav a, .book, .join, footer a{
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 1.2em;
+}    
+   
+footer p a:hover {
+  text-decoration: underline;
+}    
+      
