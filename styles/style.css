@@ -91,5 +91,10 @@ footer p a:hover {
   text-decoration: underline;
 }    
 .social img {
-  width: 225px;
+  width: 175px;
+  max-width: 41%;
 }      
+.mountains {
+ width: 1025px;
+ max-width: 73%;
+}
