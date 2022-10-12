@@ -1,9 +1,10 @@
 #content {
+  width: 1600px;
   max-width: 100%;
   margin: 0 auto;
 }
 
-#content, nav a, #hero-msg h1, #hero-msg h4,.button-box, main section {
+#content {
   text-align: center;
 }
 
@@ -91,7 +92,7 @@ footer p a:hover {
   text-decoration: underline;
 }    
 .social img {
-  width: 175px;
+  width: 80px;
   max-width: 41%;
 }      
 .mountains {
