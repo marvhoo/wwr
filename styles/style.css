@@ -2,11 +2,9 @@
   width: 1600px;
   max-width: 100%;
   margin: 0 auto;
-}
-
-#content {
   text-align: center;
 }
+
 
 #background {
   height: 725px;
@@ -15,7 +13,10 @@
 
 body {
   background-color: #498C8A;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
 }
+
 
 header {
   background-color: #46ACC2;
@@ -36,7 +37,7 @@ nav a {
 }
 
 nav {
-  background-color: var(#4D4730);
+  background-color: #4D4730;
   line-height: 3em;
   text-align: center;
   font-size: 3em;
@@ -45,10 +46,10 @@ nav {
 }
 
 nav a:link, nav a:visited {
-  color: var(#42F2F7 );
+  color: #42F2F7;
 }
 
-footer, #hero-msg {
+footer, #hero-msg h1, #hero-msg p {
   font-size: 3em;
   line-height: 1em;
 }
@@ -99,3 +100,78 @@ footer p a:hover {
  width: 1025px;
  max-width: 73%;
 }
+
+.home-title, .msg h2 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2em;
+}
+
+.book, .join {
+  font-size: 50px;
+  margin-top: 50px;
+}
+.book:hover, .join:hover {
+  font-size: 3.6em;
+}
+
+.msg {
+  background-color: #6f7364;
+  line-height: 1.7em;
+  padding: 20PX;
+  border: 7px solid black;
+  border-radius: 11%;
+  margin: 55px;
+}
+   
+.msg:hover {
+  background-color: #69140e;
+}
+h2 {
+  margin: 0;
+}
+
+#logo_link {
+ padding-top: 5px;
+}
+nav a, .msg {
+  padding: 35px;
+}
+
+.book, .join {
+  padding: 15px 30px;
+  border: 12px solid black;
+  border-radius: 13%;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
+  background-color: #d9c2a3;
+  color: black;
+}
+
+.icon {
+  padding-top: 10px;
+}
+
+.msg p {
+  padding-bottom: 15px;
+}
+footer { 
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+footer, .social img {
+  padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+ margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #d9c2a3;
+  border-radius: 4%;
+}
+main section img {
+  box-sizing: border-box;
+}
+  
